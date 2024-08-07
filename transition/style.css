@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(230, 230, 10);
+    margin: 100px auto;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(35, 200, 131);
+    margin: 190px auto;
+    margin-top: 100p;
+}
+
+
+.box1:hover {
+    transform: rotate(360deg);
+    transition: transform 5s;
+    border-radius: 100px;
+}
+
+
+.box2:hover {
+    transform: scale(.3) rotate(3000deg);
+    transition: transform 5s;
+    border-radius: 100px;
+}
